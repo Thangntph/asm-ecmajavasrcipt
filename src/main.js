@@ -1,6 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 import AboutPage from "./pages/About";
+import AdminProductAddPage from "./pages/admin/Product-add";
+import AdminProductEditPage from "./pages/admin/Product-edit";
+import AdminProductsPage from "./pages/admin/Products";
 import HomePage from "./pages/HomePage";
 import NotFoundPages from "./pages/NotFound";
 import ProductDetailPage from "./pages/ProductDetail";
@@ -15,5 +18,9 @@ router.on("/products", () => render(ProductsPage, app));
 router.on("/product/:id", ({ data }) => render(() => ProductDetailPage(data), app));
 router.notFound(() => render(NotFoundPages, app));
 
+// admin
+router.on("admin/products", () => render(AdminProductsPage, app));
+router.on("admin/products/add", () => render(AdminProductAddPage, app));
+router.on("admin/products/:id/edit", () => render(({ data }) => AdminProductEditPage(), app));
 router.resolve();
 
