@@ -1,37 +1,20 @@
 {
   "products": [
     {
-      "name": "Dự án 1",
-      "author": "thangcadiec",
-      "id": 1,
-      "price": 5555
-    },
-    {
-      "name": "Dự án thịt bò",
-      "author": "thangcadhep",
-      "id": 2,
-      "price": 500
-    },
-    {
-      "price": "kk",
-      "name": "Anh da Đen",
-      "author": "Châu Phi",
-      "id": 4
-    },
-    {
-      "name": "suamsung",
-      "price": "122222",
-      "id": 5
-    },
-    {
-      "name": "ửdtfg",
-      "price": "200",
-      "id": 6
-    },
-    {
-      "name": "saitama",
+      "name": "táo",
       "price": "aaaa",
-      "id": 7
+      "image": [
+        "https://res.cloudinary.com/djomphua4/image/upload/v1676657187/ECMA/dwvfuocduy9a8sheiyua.jpg"
+      ],
+      "id": 8
+    },
+    {
+      "name": "",
+      "price": "",
+      "image": [
+        "http://res.cloudinary.com/djomphua4/image/upload/v1676657673/ECMA/rmo67hm2tlmnjmpxt0vy.jpg"
+      ],
+      "id": 10
     }
   ]
 }
